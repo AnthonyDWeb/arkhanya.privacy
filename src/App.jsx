@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="arkhanya.privacy" element={<Homepage />} />
-        <Route path="arkhanya.privacy/gameraid" element={<Gameraid/>} />
+        <Route path="arkhanya.privacy/gameraid" element={<Gameraid />} />
       </Routes>
     </BrowserRouter>
   );
