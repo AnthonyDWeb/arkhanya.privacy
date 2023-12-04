@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Homepage } from "./pages";
-import { Gameraid } from "./pages/gameraid";
+import Gameraid from "./pages/gameraid";
 
 function App() {
   return (

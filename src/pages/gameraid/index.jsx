@@ -1,8 +1,7 @@
 import React from 'react'
 import "../../App.css";
 
-export function Gameraid() {
-
+export default function Gameraid() {
     return (
         <div className='page'>
             <h2>Politique de confidentialité de Gamer Aid</h2>
