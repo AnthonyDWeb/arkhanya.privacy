@@ -15,12 +15,6 @@ export function Homepage() {
             <h1>Arkhanya Privacy</h1>
             <div className="app-list">
                 <LinkApp link="./gameraid/" name="Gamer Aid App" />
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
             </div>
         </div>
     )
