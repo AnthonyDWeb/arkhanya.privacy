@@ -1,15 +1,12 @@
-import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
-import { Homepage } from "./pages";
-import Gameraid from "./pages/gameraid";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navigation } from "./routes";
 
 function App() {
   const path = window.location.pathname;
-  console.log("path",path);
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/arkhanya.privacy" element={<Homepage />} />
-        <Route path="/arkhanya.privacy/gameraid" element={<Gameraid />} />
+        <Route path={path} element={<Navigation path={path} />} />
       </Routes>
     </BrowserRouter>
   );
