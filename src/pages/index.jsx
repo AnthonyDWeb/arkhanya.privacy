@@ -14,7 +14,7 @@ export function Homepage() {
         <div className='app-container'>
             <h1>Arkhanya Privacy</h1>
             <div className="app-list">
-                <LinkApp link="./gameraid/" name="Gamer Aid App" />
+                <LinkApp link="https://anthonydweb.github.io/arkhanya.privacy.gameraid" name="Gamer Aid App" />
             </div>
         </div>
     )

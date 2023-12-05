@@ -1,12 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navigation } from "./routes";
+import { Homepage } from "./pages";
 
 function App() {
-  const path = window.location.pathname;
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={path} element={<Navigation path={path} />} />
+        <Route path={"/"} element={<Homepage />} />
       </Routes>
     </BrowserRouter>
   );
